@@ -24,7 +24,7 @@ When we have to run multiple Nessus individualy (for 30 servers, 30 different sc
 - This script can download multiple report formats on one go. 4 different customizations of HTML formats are available.  
 - Default input is provided for few fields. This is indicated in `[ ]`. Just press enter without any input to take the default value as input. This helps user experienc when using the semi-customized script for similar project/cutomer.
 - Customizable with hardcoded input or dynamic input. Designed with the intention of using different customized scripts for differnt customers.  
-- `Loading...` text with dots will be displayed to indicate the Nessus Server status is not yet ready to download the huge reports. The status will be checked every two seconds and a `.` will be displayed for each status call.  
+- `Loading...` text with dots will be displayed to indicate the Nessus Server status is not yet ready to download the huge reports. The status will be checked every two seconds and a `.` will be displayed for each status call. Refer to the `Powershell Console I/O` screenshots in this page.
 - Verbose Nessus export for selected report formats and inline report status for good user experience.  
 - API session timeouts are handled to resume the session from previously provided credentials. This helps when downloading a bunch of reports over night.  
 - If any error occured during the export, error details with the report name will be displyed. User may download the particular report manually.  
@@ -145,7 +145,11 @@ Give the input as "https://127.0.0.1:8080" in the "Nessus Scanner URL + Port" in
 - Ensure that the correct execution policy is set when executing the script.
 
 
-## Sample Screenshot   
-  
-Here is the sample screenshot.  
+## Sample Screenshots   
+
+1. Powershell Console I/O:  
 <kbd>![alt text](https://github.com/V9Y1nf0S3C/NessusPro-Report-Exporter-Tool/blob/main/Screenshots/Sample_output.png?raw=true)</kbd>
+
+2. Exported files using this script:  
+<kbd>![alt text](https://github.com/V9Y1nf0S3C/NessusPro-Report-Exporter-Tool/blob/main/Screenshots/Exported_files.png?raw=true)</kbd>
+
